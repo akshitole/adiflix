@@ -1,0 +1,21 @@
+.VideoCard{
+width: 450px;
+height: 450px;
+padding: 20px;
+transition:transform 100ms;
+color: white;
+cursor: pointer;
+
+}
+.VideoCard:hover{
+    transform: scale(1.09);
+}
+.VideoCard > img{
+    height: 300px;
+    object-fit: contain;
+    width: 450px;
+}
+
+.VideoCard >h2{
+    padding-top: 10px;
+}
